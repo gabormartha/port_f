@@ -4,7 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
