@@ -28,7 +28,7 @@ jobs:
       run: |
         sudo apt install google-chrome-stable
 
-    - run: docker-compose up -d
+#    - run: docker-compose up -d
 
     - name: Sleep for 45 seconds
       run: sleep 45s
@@ -38,16 +38,16 @@ jobs:
       run: |
         pytest --alluredir=allure-results
 
-    - name: Collect docker logs
-      uses: jwalton/gh-docker-logs@v1
-      with:
-        dest: './logs'
+#    - name: Collect docker logs
+#      uses: jwalton/gh-docker-logs@v1
+#      with:
+#        dest: './logs'
 
-    - name: Archive execution artifacts
-      uses: actions/upload-artifact@v2
-      with:
-        name: docker-logs
-        path: ./logs
+#    - name: Archive execution artifacts
+#      uses: actions/upload-artifact@v2
+#      with:
+#        name: docker-logs
+#        path: ./logs
 
     - name: Get Allure history
       uses: actions/checkout@v2
