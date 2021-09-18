@@ -22,7 +22,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pytest
-        if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
+        if [ -f port_f/tests/requirements.txt ]; then pip install -r port_f/tests/requirements.txt; fi
 
     - name: Install Chrome
       run: |
