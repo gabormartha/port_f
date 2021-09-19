@@ -1,0 +1,1 @@
+{'domain': 'www.saucedemo.com', 'expiry': 1632052555, 'httpOnly': False, 'name': 'session-username', 'path': '/', 'secure': False, 'value': 'standard_user'}

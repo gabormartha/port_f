@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://gabormartha.github.io/port_f",
+  "buildOrder" : 15,
+  "buildName" : "GitHub Actions Run #1250628130",
+  "buildUrl" : "https://github.com/gabormartha/port_f/actions/runs/1250628130",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://gabormartha.github.io/port_f/15/"
+} ]
